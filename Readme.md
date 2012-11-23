@@ -2,10 +2,12 @@
 
 [Презентация](http://sapegin.ru/pres/grunt/).
 
+
 ## Установка Grunt
 
 1. Установите [Node.js](http://nodejs.org/).
 2. `$ npm install grunt -g`
+
 
 ## Примеры к докладу
 
@@ -18,6 +20,16 @@ grunt server watch
 ```
 
 И заходите на [http://localhost:8000/](http://localhost:8000/).
+
+
+### Пример собственной задачи: запуск imgo
+
+Установите [imgo](https://github.com/imgo/imgo). В папке `imgotask` запускайте:
+
+```bash
+grunt
+```
+
 
 ### Grunt в теме для Wordpress
 
