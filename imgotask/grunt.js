@@ -21,7 +21,7 @@ module.exports = function(grunt) {
 			// Создаём процесс imgo, передаём ему имя текущего файла
 			grunt.utils.spawn({
 				cmd: 'imgo',
-				args: file
+				args: [file]
 			}, next);
 		}, done);
 	});
